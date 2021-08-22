@@ -1,0 +1,69 @@
+.container-bg{
+  width: 360px;
+  height: 640px;
+  background: white!important;
+  margin: auto;
+
+}
+body{
+  background: lavender!important;
+}
+.uk-navbar{
+  background: #377A97!important;
+  width: auto;
+  height: 50px;
+  margin-bottom: 30px!important;
+
+}
+.opsi-pengiriman{
+  margin: auto;
+  color: white;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.regular{
+  font-weight: bolder;
+  display: inline-flex;
+  margin-bottom: 0px;
+
+}
+.caption{
+  color: rgb(134, 134, 134);
+  margin-bottom: 20px!important;
+}
+.card{
+  width: 300px!important;
+  height: 150px!important;
+  border-radius: 15px!important;
+  margin-top: 20px!important;
+  margin-left: 30px!important;
+  cursor: pointer!important;
+  margin-bottom: 30px!important;
+  
+}
+.price1{
+  color: #377A97!important;
+  font-weight: bold;
+  display: inline;
+  margin-left: 50px;
+}
+.price2{
+  color: #377A97!important;
+  font-weight: bold;
+  display: inline;
+  margin-left: 70px;
+}
+.price3{
+  color: #377A97!important;
+  font-weight: bold;
+  display: inline;
+  margin-left: 85px;
+}

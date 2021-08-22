@@ -1,0 +1,87 @@
+body{
+  background: lavender!important;
+}
+
+.uk-bg{
+  width:360px;
+  height: auto;
+  background: white!important;
+  margin: auto;
+}
+.cyclemall{
+  position: absolute;
+  left: 580px;
+  top: 220px;
+
+}
+.formlogin{
+  position: absolute!important;
+  top: 300px!important;
+  margin-left: 385px!important;
+
+}
+.id-user{
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border-color: lightgray;
+  color: black!important;
+}
+.pw-user{
+  border-radius: 7px;
+  margin-bottom: 10px;
+  display: flex;
+  flex: wrap;
+  border-color: lightgray;
+  color: black!important;
+}
+.submit-user{
+  border-radius: 7px;
+  padding-left: 74px;
+  padding-right: 74px;
+  background: #88DEB1;
+  height:40px ;
+  border-style: none;
+  color: white!important;
+  margin-bottom: 10px;
+  position: absolute;
+  right: -5px;
+}
+.formlogin{
+  position: absolute;
+  left:200px!important ;
+  bottom: -50px!important;
+  border-style: none;
+  
+
+}
+.lupa-pw{
+  color: #88DEB1;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  left:31px ;
+  bottom: 255px!important
+  
+}
+.daftar{
+  position: absolute;
+  bottom: 100px;
+  margin: auto;
+  left: 0px;
+  font-size: 14px;
+  margin-left: 570px!important;
+  
+}
+.daftar-user{
+  border-radius: 7px;
+  padding-left: 74px;
+  padding-right: 74px;
+  background: #88DEB1;
+  height:40px ;
+  border-style: none;
+  color: white!important;
+  position: absolute;
+  left: 0px;
+  top: 580px;
+  margin-left: 580px;
+}

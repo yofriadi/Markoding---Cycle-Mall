@@ -1,0 +1,403 @@
+.uk-iconnav{
+  margin-left: 9px !important;
+  margin-top: 0px !important;
+}
+.back{
+
+  margin-top: 10px;
+  style: bolder;
+
+}
+.uk-container-head{
+  background:black;
+  padding-top: 10px;
+  padding-bottom: 0;
+  width:360px ;
+  margin-bottom: 0%;
+}
+.gambar{
+  width: 360px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  padding-top: 0%!important;
+  padding-bottom: 0%!important;
+}
+
+.uk-bg{
+  width: 360px !important;
+  height: auto !important;
+  background: black !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+body{
+  background: lightcyan!important;
+
+}
+
+.uk-caption{
+  background-color: white;
+  height: 41%;
+  margin-top: 0%;
+  width:360px ;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-top: 0%!important;
+  padding-bottom: 3%!important;
+}
+
+.judul-barang{
+  font-weight: bolder;
+  margin-left: 21px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.tipe-barang {
+  background: #377A97;
+  border-radius: 10px;
+  color: white;
+  flex: 50%;
+  padding-left: 5px;
+  margin-left: 21px;
+  padding-bottom: 3px;
+  margin-right:115px;
+  margin-bottom: 0%;
+}
+
+.stok-barang {
+  color: #377A97;
+  font-weight: bold;
+  margin-left: 21px;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  flex: 50%;
+}
+
+.deskripsi-barang{
+  margin-left: 21px;
+  margin-right: 21px;
+  font-size: 12px;
+  padding-top: 0%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.harga-barang{
+  color: #377A97;
+  font-weight: bold;
+  margin-left: 95px;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 2%;
+  flex: 50%;
+}
+
+.button-bottom{
+  margin-left: 21px;
+  margin-top: 11%;
+}
+.telepon{
+  .margin-right: px;
+}
+
+.kolom1 {
+  display: flex;
+}
+
+.number-input{
+  margin-left: 21px;
+  flex:50%;
+  margin-right:45px;
+  
+}
+.jumlah-harga{
+  display: flex;
+}
+
+.telepon{
+  border-radius: 8px;
+  margin-left: 42px;
+  font-size: 14px;
+  padding: 12px 30px;
+  background: #D9ECF2;
+  color: #377A97;
+  border-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addtocard{
+  border-radius: 8px;
+  margin-left: 30px;
+  font-size: 14px;
+  padding: 12px 25px;
+  background: #88DEB1;
+  color: white;
+  border-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tombol-bawah{
+  margin-top: 10%;
+}
+
+.uk-button-default{
+  border-radius: 10px!important;
+  border-style: none!important;
+  margin-left: 30px!important;
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+  margin-bottom: 0%!important;
+  margin-top: 0%!important;
+}
+.beli {
+  background: #D9ECF2!important;
+  color: #377A97!important;
+  font-weight: bold!important;
+}
+
+.keranjang{
+  background: #88DEB1!important;
+  color: white!important;
+  font-weight: bold!important;
+}
+.fa-shopping-cart{
+  margin-right: 10px!important;
+  
+}
+
+.fa-phone-alt{
+  margin-right: 10px!important;
+}
+
+.avatar{
+  margin-top: 10px;
+  margin-left: 21px;
+  width: 50px;
+  height: 50px;
+}
+.lokasi-seller{
+  margin-top:0%!important;
+  padding-top: 0%!important;
+  flex: 50%!important;
+}
+.nama-seller{
+  margin-bottom: 0%!important;
+  padding-bottom: 0%!important;
+  flex: 50%!important;
+}
+.informasi-seller{
+  font-size: 14px;
+  margin-top: 13px;
+  margin-left: 5%;
+}
+.seller{
+  margin-top: 0px;
+  display: flex;
+  padding-bottom: 0%!important;
+  margin-bottom: 0%!important;
+}
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  border: 2px solid #ddd;
+  display: inline-flex;
+  border-radius: 10px;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline:none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 2px;
+  background-color: darkgray;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  font-family: sans-serif;
+  max-width: 30px;
+  padding: .5px;
+  border: solid #ddd;
+  border-width: 0 2px;
+  font-size: 16px;
+  height: 25px;
+  font-weight: bold;
+  color: rgb(60, 59, 59);
+  text-align: center;
+}
+
+.carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    width: 360px;
+    height: 70%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: 360px;
+    height: 70%;
+
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-size: 50px;
+    line-height: 200px;
+    color: #fff;
+}
+
+.carousel-controls label {
+    display: none;
+    position: absolute;
+    padding: 0 20px;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.slide-image:hover + .carousel-controls label{
+    opacity: 0.5;
+}
+
+.carousel-controls label:hover {
+    opacity: 1;
+}
+
+.carousel-controls .prev-slide {
+    width: 49%;
+    text-align: left;
+    left: 0;
+}
+
+.carousel-controls .next-slide {
+    width: 49%;
+    text-align: right;
+    right: 0;
+}
+
+.carousel-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 999;
+    text-align: center;
+}
+
+.carousel-dots .carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:white;
+    opacity: 0.5;
+    margin: 10px;
+}
+
+input:checked + .slide-container .slide-image {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .carousel-controls label {
+     display: block; 
+}
+
+input#img-1:checked ~ .carousel-dots label#img-dot-1,
+input#img-2:checked ~ .carousel-dots label#img-dot-2,
+input#img-3:checked ~ .carousel-dots label#img-dot-3,
+input#img-4:checked ~ .carousel-dots label#img-dot-4,
+input#img-5:checked ~ .carousel-dots label#img-dot-5,
+input#img-6:checked ~ .carousel-dots label#img-dot-6 {
+	opacity: 1;
+}
+
+
+input:checked + .slide-container .nav label { display: block; }
+
+.lampuhias{
+  position: absolute;
+  margin-left: -10%;
+  width: 300px;
+  height: 300px;
+  margin-top: 0;
+  padding-top: 0;
+}

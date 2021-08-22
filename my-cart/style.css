@@ -1,0 +1,230 @@
+.uk-bg{
+  width: 360px;
+  height: 640px;
+  background: white;
+  padding: 0px!important;
+}
+body{
+  background: lavender;
+}
+.uk-navbar{
+  background: #377A97!important;
+  width: auto;
+  height: 50px;
+}
+.cart{
+  margin: auto;
+  color: white;
+  padding-bottom: 15px;
+}
+.back{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  cursor: pointer;
+}
+.uk-card-atas{
+  width: 300px!important;
+  height: 130px!important;
+  border-radius: 10px!important;
+  margin: auto!important;
+  margin-top: 25px!important;
+
+}
+.nama-produk{
+  font-weight: bolder;
+  position: absolute;
+  left: 120px;
+  top: 35px;
+}
+.lampu-hias{
+  position: absolute;
+  left: 0px;
+  top: -10px;
+}
+
+.price{
+  font-weight: bold;
+  color: #377A97;
+  position: absolute;
+  left: 120px;
+  top: 30px;
+}
+.trash{
+  position: absolute;
+  left:260px ;
+  top: 18px;
+  cursor: pointer;
+}
+.number-input{
+  margin-left: 21px;
+  flex:50%;
+  margin-right:45px;
+  position: absolute;
+
+  
+}
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.number-input {
+  border: 2px solid #ddd;
+  display: inline-flex;
+  border-radius: 10px;
+  position: absolute;
+  left: 180px;
+  top: 90px;
+}
+
+.number-input,
+.number-input * {
+  box-sizing: border-box;
+}
+
+.number-input button {
+  outline:none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 2px;
+  background-color: darkgray;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+  font-family: sans-serif;
+  max-width: 30px;
+  padding: .5px;
+  border: solid #ddd;
+  border-width: 0 2px;
+  font-size: 16px;
+  height: 25px;
+  font-weight: bold;
+  color: rgb(60, 59, 59);
+  text-align: center;
+}
+
+.carousel {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul.slides {
+    display: block;
+    position: relative;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+ul.slides input {
+    display: none; 
+}
+
+
+.slide-container { 
+    display: block; 
+}
+
+.slide-image {
+    width: 360px;
+    height: 70%;
+    top: 0;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}   
+
+.slide-image img {
+    width: 360px;
+    height: 70%;
+}
+
+.line{
+  margin: auto!important;
+  width: 360px;
+  position: absolute;
+  left: -30px;
+  top: 450px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.trash-button{
+  color: rgb(88, 88, 88);
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  left: 265px;
+  cursor: pointer;
+}
+.total{
+  left:0px ;
+  top: 470px;
+  color: rgb(128, 128, 128);
+}
+.titik-dua{
+  position: absolute;
+  top: 430px;
+  left:40px ;
+}
+.harga-barang{
+  top: 430px;
+  position: absolute;
+  left: 220px;
+}
+.checkout{
+  background-color: #88DEB1!important;
+  font-weight: bold!important;
+  color: white!important;
+  padding-left: 100px!important;
+  padding-right: 100px!important;
+  border-radius: 10px!important;
+  position: absolute;
+  top: 510px;
+  left:15px!important
+}

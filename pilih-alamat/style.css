@@ -1,0 +1,60 @@
+.container-bg{
+  width: 360px;
+  height: 640px;
+  background: white!important;
+  margin: auto;
+
+}
+body{
+  background: lavender!important;
+}
+.uk-alamat{
+  width: 300px!important;
+  height: 100px!important;
+  margin-left: 20px!important;
+  border-radius: 7px!important;
+
+}
+.tulis-alamat{
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.uk-navbar{
+  background: #377A97!important;
+  width: auto;
+  height: 50px;
+
+}
+.alamat{
+  margin: auto;
+  color: white;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.format-alamat{
+  color: rgb(179, 179, 179);
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: 0px;
+}
+.simpan{
+  background-color: #88DEB1!important;
+  font-weight: bold!important;
+  color: white!important;
+  padding-left: 100px!important;
+  padding-right: 100px!important;
+  border-radius: 10px!important;
+  margin-left: 40px!important;
+  margin-top: 320px!important;
+}

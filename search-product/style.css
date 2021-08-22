@@ -1,0 +1,15 @@
+.uk-card {
+  margin: 16px;
+  display: flex !important;
+  border-radius: 16px;
+}
+
+.uk-card > img {
+  width: 200px;
+  border-radius: 16px;
+  margin-right: 24px;
+}
+
+.bar {
+  justify-content: space-between;
+}

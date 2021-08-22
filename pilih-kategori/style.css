@@ -1,0 +1,30 @@
+.uk-card {
+  margin: 16px;
+  border-radius: 16px;
+}
+
+.title {
+  font-style: bold;
+}
+
+.bar {
+  display: flex;
+  height: 30px;
+  background-color: #377A97;
+  padding: 10px;
+}
+
+.bar i {
+  margin-top: 4px;
+  margin-right: 16px;
+  margin-left: 16px;
+  color: white;
+}
+
+.bar span {
+  color: white;
+}
+
+body a {
+  text-decoration: none;
+}

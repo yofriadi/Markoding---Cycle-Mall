@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <div class="container-bg">
+      <section class="uk-container uk-navbar">
+        <i class="fa fa-arrow-left back-button"></i>
+        <h5 class="cart"> Checkout </h5>
+      </section>
+      <section class="body">
+        <h3 class="address"> Alamat Pengiriman </h3>
+        <i class="fas fa-chevron-right arrow-right"></i>
+        <P class="address-user"> Jalan Tlogosari Raya, Tlogosari Kulon, Pedurungan, Semarang 50199 </p>
+        <h3 class="opsi-pengiriman"> Opsi Pengiriman </h3>
+        <i class="fas fa-chevron-right arrow-right"></i>
+        <P class="ekspedisi"> Regular </br> JNE Express </p>
+        <p class="harga"> Rp.9000 </p>
+        <h3 class="opsi-pengiriman"> Metode Pembayaran </h3>
+        <div class="uk-form-controls uk-form-controls-text">
+            <label><input class="payment-method" type="radio" name="radio1"> E-wallet (Dana, Ovo, Gopay, dll)</label><br>
+            <label><input class="payment-method" type="radio" name="radio1"> COD</label>
+        </div>
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-card-atas"> 
+          <img class="lampu-hias" src="images/lampu.png"/>
+          <div class="caption">
+            <h3 class="nama-produk"> Lampu Hias </h3>
+          </div>
+          <div class="jumlah-harga">
+            <div class="number-input">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+              <input class="quantity" min="0" name="quantity" value="1" type="number">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+          </div>
+      </section>
+      <section class="footer">
+        <p class="total"> Total: </p>
+        <p class="total-harga"> Rp 34.000</p>
+        <button class="uk-button uk-button-default checkout ">Checkout </button>
+      </section>
+    </div>
+  </body>
+</html>
