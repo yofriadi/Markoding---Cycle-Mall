@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Deskripsi Jual Barang</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js">
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js">
+
+	</script>
+</head>
+
+<body>
+    <div class="container-bg">
+      <i class="fas fa-times" style="margin-top: 15px; margin-left: 15px;"></i>
+      <h1 style="font-weight: bold; margin-left: 86px;">Edit Profil</h1>
+      <form action="/signup" method="post" class="form">
+        <div class="uk-margin form1">
+            <input class="uk-input" type="email" placeholder="Email">
+        </div>
+        <div class="uk-margin form1">
+            <input class="uk-input" type="text" placeholder="Nomor telepon">
+        </div>
+        <div class="uk-margin form1">
+            <input class="uk-input" type="text" placeholder="Nama">
+        </div>
+         <div class="uk-margin form1">
+            <input class="uk-input" type="password" placeholder="Kata sandi">
+        </div>
+        <label class="tanggal-lahir" style="display:block; margin-top: 10px; margin-bottom: 10px;">Tanggal lahir</label>
+          <input type="date" name="tanggal" placeholder="Tanggal" required>
+          <div class="jeniskelamin">
+            <label class="jenis-kelamin">Jenis kelamin</label></br>
+            <label class="tipe-kelamin">
+              <input type="radio" name="jeniskelamin" value="perempuan">
+              Perempuan
+            </label>
+            <label>
+              <input type="radio" name="jeniskelamin" value="laki-laki">
+              Laki-laki
+            </label>
+            <label>
+              <input type="radio" name="jeniskelamin" value="Khusus">
+              Khusus
+            </label>
+          </div>
+      </form>
+      <center>
+      <p>
+        <button class="simpan" type="submit" value="Simpan">Simpan</button>
+      </p>
+      </center>
+</body>
+</html>

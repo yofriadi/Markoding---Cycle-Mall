@@ -1,0 +1,17 @@
+.container-bg{
+  width: 360px;
+  height: 640px;
+  background: white!important;
+  margin: auto;
+}
+
+body{
+  background: lavender!important;
+}
+
+.bar {
+  display: flex;
+  height: 30px;
+  background-color: #377A97;
+  padding: 10px;
+}

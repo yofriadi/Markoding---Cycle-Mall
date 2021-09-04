@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js">
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js">
+
+	</script>
+</head>
+
+<body>
+  <div class="container">
+    <section class="header">
+      <img src="images/avatar.png" class="avatar">
+      <h4 class="username"> Kerajinan Mas Ari</h4>
+      <p class="phone-number"> 082183121166 </p>
+      <h6 class="address"> <i class="fas fa-map-marker-alt"></i> Semarang, Jawa Tengah </h6>
+      <button class="edit"><i class="fas fa-pencil-alt edit-icon"></i></button>
+    </section>
+    <div class="container-bar">
+      <div class="jual-tab" style="color:rgb(78, 78, 78);">
+        <i class="fas fa-shopping-bag icon-bag" style="color:rgb(78, 78, 78);"></i><p class="beli" style="color:rgb(78, 78, 78);"> Beli </p>
+      </div>
+      <div class="blue-shape" style="margin-left:200px; margin-top:-48px;">
+        <i class="fas fa-tag icon-bag"></i><p class="beli">Jual</p>
+      </div>
+      <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-card-atas"> 
+          <img class="lampu-hias" src="images/lampu.png"/>
+          <div class="caption">
+            <h3 class="nama-produk"> Lampu Hias </h3>
+            <h5 class="price"> Rp. 25.000 </h5>
+            <h6 class="terjual"> 10 Terjual </h6>
+          </div>
+          <div class="delete">
+            <button class="button-delete" uk-toggle="target: #modal-example"> <i class="fas fa-trash" style="margin-right:10px;"></i>Hapus
+            </button>
+          </div>
+          <div id="modal-example" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body modal">
+              <h4 class="question">Apakah kamu yakin ingin menghapus barang ini?</h4>
+              <button class="uk-button uk-button-default  keluar-button" type="button">Ya, hapus</button>
+              <button class="uk-button uk-button-default batal-button uk-modal-close" type="button">Batal</button>
+            </div>
+          </div>
+          <div class="sunting">
+            <button class="sunting"><i class="fas fa-pen pen" style="display:inline-flex"></i><h5 class="ngedit"style="display:inline;">Edit</h5></button> 
+          </div>  
+      </div>         
+      <div class="footer">
+        <div class="menu-beranda">
+          <i class="fas fa-home home"></i>
+          <p class="beranda">Beranda</p>
+        </div>
+        <div class="menu-profil">
+          <i class="fas fa-user-alt profil1"></i>
+          <p class="profil">Profil</p>
+        </div>
+      </div>
+
+
+
+
+
+
+    </section>
+</body>
+
+</html>

@@ -11,8 +11,8 @@ body{
   font-size: 23px;
   color: black;
   position: absolute;
-  top: 15px;
-  left: 10px;
+  top: 25px;
+  left: 25px;
   cursor: pointer;
 }
 .qr-code{
@@ -26,6 +26,5 @@ body{
   padding-left: 100px!important;
   padding-right: 100px!important;
   border-radius: 10px!important;
-  margin-left: 35px!important;
   margin-top: 125px!important
 }

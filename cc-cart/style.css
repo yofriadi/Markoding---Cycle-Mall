@@ -1,0 +1,28 @@
+body{
+  background: lavender;
+
+}
+.container-bg{
+  background: white;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+}
+.uk-navbar{
+  background: #377A97!important;
+  width: auto;
+  height: 50px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.cart{
+  margin: auto;
+  color: white;
+  padding-bottom: 15px;
+}

@@ -29,9 +29,9 @@
           </div>
           <div class="jumlah-harga">
             <div class="number-input">
-              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-              <input class="quantity" min="0" name="quantity" value="1" type="number">
-              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+              <button id="dec" onclick="decPrice()"></button>
+                <input id="quantity" class="quantity" min="0" name="quantity" value="1" type="number">
+              <button id="inc" onclick="incPrice()" class="plus"></button>
             </div>
           </div>
           <div class="line">
@@ -40,9 +40,36 @@
           <div class="total-belanja">
             <h6 class="total" style="position:absolute;"> Total </h6>
             <h6 class="titik-dua"> : </h6>
-            <h6 class="harga-barang" style="color:#377A97; font-weight:bold;"> Rp. 25.000 </h6>
+            <h6 id="price" class="harga-barang" style="color:#377A97; font-weight:bold;"> Rp. 25.000 </h6>
+            <h6 id="base-price" style="display: none;">25000</h6>
           </div>
           <button class="uk-button uk-button-default checkout ">Checkout </button>
+      </div>
+    </div>
+    <script>
+    function incPrice() {
+      const inc = document.getElementById("inc")
+      inc.parentNode.querySelector('input[type=number]').stepUp()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+    }
+    function decPrice() {
+      const dec = document.getElementById("dec")
+      dec.parentNode.querySelector('input[type=number]').stepDown()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+    }
+  </script>
 
             
   </body>

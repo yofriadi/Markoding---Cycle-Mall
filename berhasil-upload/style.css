@@ -1,0 +1,20 @@
+.container-bg{
+  width: 360px;
+  height: 640px;
+  background: white!important;
+  margin: auto;
+}
+
+body{
+  background: lavender!important;
+}
+
+.beranda{
+  background-color: #88DEB1!important;
+  font-weight: bold!important;
+  color: white!important;
+  padding-left: 80px!important;
+  padding-right: 80px!important;
+  border-radius: 10px!important;
+  margin-top: 205px!important
+}

@@ -26,7 +26,7 @@
         <h3 class="opsi-pengiriman"> Opsi Pengiriman </h3>
         <i class="fas fa-chevron-right arrow-right"></i>
         <P class="ekspedisi"> Regular </br> JNE Express </p>
-        <p class="harga"> Rp.9000 </p>
+        <p class="harga" id="ongkir"> Rp.9000 </p>
         <h3 class="opsi-pengiriman"> Metode Pembayaran </h3>
         <div class="uk-form-controls uk-form-controls-text">
             <label><input class="payment-method" type="radio" name="radio1"> E-wallet (Dana, Ovo, Gopay, dll)</label><br>
@@ -36,19 +36,72 @@
           <img class="lampu-hias" src="images/lampu.png"/>
           <div class="caption">
             <h3 class="nama-produk"> Lampu Hias </h3>
+            <p class="jumlah" id="quantity-product">2 buah</p>
           </div>
           <div class="jumlah-harga">
-            <div class="number-input">
-              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-              <input class="quantity" min="0" name="quantity" value="1" type="number">
-              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+            <!-- <div class="number-input">
+              <button id="dec" onclick="decPrice()"></button>
+              <input id="quantity" class="quantity" min="0" name="quantity" value="1" type="number">
+              <button id="inc" onclick="incPrice()" class="plus"></button>
+            </div> -->
           </div>
+        </div>
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m uk-card-atas"> 
+          <img class="lampu-hias" src="images/lampu.png"/>
+          <div class="caption">
+            <h3 class="nama-produk"> Lampu Hias </h3>
+          </div>
+          <div class="jumlah-harga">
+            <!-- <div class="number-input">
+              <button id="dec" onclick="decPrice()"></button>
+              <input id="quantity" class="quantity" min="0" name="quantity" value="1" type="number">
+              <button id="inc" onclick="incPrice()" class="plus"></button>
+            </div> -->
+          </div>
+        </div>
       </section>
       <section class="footer">
         <p class="total"> Total: </p>
-        <p class="total-harga"> Rp 34.000</p>
+        <p class="total-harga" id="total-price">Rp 59.000</p>
+        <!-- <p id="base-price" style="display: none;">34000</p> -->
         <button class="uk-button uk-button-default checkout ">Checkout </button>
       </section>
     </div>
+    <script>
+      function incPrice() {
+      const inc = document.getElementById("inc")
+      inc.parentNode.querySelector('input[type=number]').stepUp()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+      document.getElementById("quantity-product").innerHTML = quantity
+    }
+    function decPrice() {
+      const dec = document.getElementById("dec")
+      dec.parentNode.querySelector('input[type=number]').stepDown()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+      document.getElementById("quantity-product").innerHTML = quantity
+    }
+
+    let totalPrice = localStorage.getItem('totalPrice')
+    console.log(totalPrice)
+    const ongkir = 9000 
+    totalPrice = Number(totalPrice) + ongkir
+    document.getElementById("total-price").innerHTML = 'Rp' + totalPrice
+
+    let quantity = localStorage.getItem('quantity')
+    console.log("qty", quantity)
+    document.getElementById("quantity-product").innerHTML = quantity
+    </script>
   </body>
 </html>

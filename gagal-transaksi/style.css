@@ -1,0 +1,16 @@
+.container{
+  background: white;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+}
+body{
+  background: lavender;
+}
+.back-button{
+  font-size: 23px;
+  color: black;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}

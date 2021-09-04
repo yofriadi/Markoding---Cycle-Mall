@@ -1,0 +1,31 @@
+.container{
+  width: 360px;
+  height: 710px;
+  background: #F6F6F6;
+  margin: auto;
+}
+body{
+  background: lavender;
+}
+.navbar{
+  display: flex;
+}
+.back{
+  margin-top: 15px;
+  margin-left: 16px;
+  font-size: 25px;
+  color: #377A97;
+  margin-right: 15px;
+}
+.search{
+  width: 250px!important;
+  height: 30px!important;
+  margin-top: -15px!important;
+  border-radius: 5px!important;
+}
+.grid{
+  color: #377A97;
+  font-size: 25px;
+  margin-top: 13px;
+  margin-left: 15px;
+}

@@ -1,0 +1,87 @@
+  .container-bg{
+  background: white;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  padding-top: 9px;
+}
+
+body{
+  background: lavender;
+}
+
+  .card{
+    width: 90px!important;
+    height: 90px!important;
+    border-radius:15px!important; 
+    margin-top: 20px;
+    margin-left: 22px;
+    padding: 0;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+
+  .status{
+    font-weight: bold;
+    margin-top: 22px;
+    position: absolute;
+    left: 18px;
+  }
+
+  .box {
+    font-size: 24px;
+    position: absolute;
+    color: #88DEB1;
+    top: 20px;
+    right: 30px;
+  }
+
+  .packing {
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+
+  .status-pengiriman{
+    display: flex
+  }
+
+  .card-barang {
+    width: 310px;
+    height: 150px;
+    margin-left: 22px;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding-left: 0px;
+    display: flex;
+  }
+
+  .gambar {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+  }
+
+  .nama {
+    font-weight: bold;
+    position: absolute;
+    bottom: 3px;
+    left: 20px;
+  }
+
+  .deskripsi {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+  }
+
+  .konfirmasi {
+    position: absolute;
+    top: 60px;
+  }
+
+
+@media screen and (min-height: 641px) {
+  height: auto;
+}

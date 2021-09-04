@@ -78,12 +78,18 @@ body{
   left: 120px;
   top: 35px;
 }
+.jumlah{
+  color: #377A97;
+  position: absolute;
+  left: 120px;
+  top: 55px;
+  font-weight: bold;
+}
 .lampu-hias{
   position: absolute;
   left: 0px;
   top: -10px;
 }
-
 .price{
   font-weight: bold;
   color: #377A97;
@@ -218,9 +224,22 @@ ul.slides input {
   left: -30px;
   top: 450px;
 }
-.footer{
+/* .footer{
   width: 360px;
   height: 135px;
+  position: fixed;
+  top: 630px;
+  background: white;
+} */
+.footer {
+  height: 135px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
 }
 .total{
   margin-left: 25px;

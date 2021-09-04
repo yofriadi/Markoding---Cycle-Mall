@@ -1,3 +1,16 @@
+.container{
+  background: white;
+  margin: auto;
+  width: 360px;
+  height: 640px;
+  padding: 0;
+  padding-bottom: 0;
+}
+
+body{
+  background: lavender;
+}
+
 .uk-card {
   margin: 16px;
   border-radius: 16px;
@@ -23,6 +36,7 @@
 
 .bar span {
   color: white;
+  margin-left: 50px;
 }
 
 body a {

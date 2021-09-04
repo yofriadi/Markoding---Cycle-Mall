@@ -1,0 +1,10 @@
+.container-bg{
+  width: 360px;
+  height: 640px;
+  background: white!important;
+  margin: auto;
+}
+
+body{
+  background: lavender!important;
+}

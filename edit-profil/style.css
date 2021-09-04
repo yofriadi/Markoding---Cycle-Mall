@@ -1,0 +1,48 @@
+.container-bg{
+  background: white;
+  width: 360px;
+  height: auto;
+  margin: auto;
+}
+
+body{
+  background: lavender;
+}
+
+  .form {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+  .form1 {
+    margin-top: 20px;
+    width: 320px!important;
+  }
+
+  .jeniskelamin {
+    margin-top: 20px;
+  }
+
+  .simpan {
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #88DEB1;
+    height: 40px;
+    border-style: none;
+    color: white;
+    margin-top: 120px;
+    width: 270px;
+    margin-top: 100px;
+  }
+  .tanggal-lahir{
+    margin-bottom: 0px;
+  }
+  .jenis-kelamin{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px!important;
+  }
+  .tipe-kelamin{
+    padding-top:30px; 
+  }

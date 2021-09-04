@@ -117,11 +117,12 @@
       <p class="deskripsi-barang"> Lampu hias cantik hasil daur ulang botol plastik bekas. Dengan membeli lampu hias ini, kamu bisa membantu mengurangi sampah plastik yang terbuang bebas di alam.</p>
       <div class="jumlah-harga">
         <div class="number-input">
-          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
-          <input class="quantity" min="0" name="quantity" value="1" type="number">
-          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+          <button id="dec" onclick="decPrice()"></button>
+          <input id="quantity" class="quantity" min="0" name="quantity" value="1" type="number">
+          <button id="inc" onclick="incPrice()" class="plus"></button>
         </div>
-        <h6 class="harga-barang"> Rp25.000 </h6>
+        <h6 id="base-price" style="display: none;">25000</h6>
+        <h6 id="price" class="harga-barang">Rp25000</h6>
       </div>
       <div class="seller">
         <img class="avatar" src="images/avatar.png"/>
@@ -138,4 +139,38 @@
       </p>
     </div>
   </div>
+
+  <script>
+    function incPrice() {
+      const inc = document.getElementById("inc")
+      inc.parentNode.querySelector('input[type=number]').stepUp()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+
+      localStorage.setItem('totalPrice', price)
+      localStorage.setItem('quantity')
+    }
+    function decPrice() {
+      const dec = document.getElementById("dec")
+      dec.parentNode.querySelector('input[type=number]').stepDown()
+      
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+
+      localStorage.setItem('tfotalPrice', price)
+
+      localStorage.setItem('quantity')
+    }
+  </script>
 </body>
+
+</html>

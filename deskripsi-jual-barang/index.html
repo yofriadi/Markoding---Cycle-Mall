@@ -19,10 +19,29 @@
 </head>
 
 <body>
-	<form>
-		<select class="uk-select">
-        <option></option>
-        <option></option>
-    </select>
-    <textarea class="uk-textarea">Deskripsi barang</textarea>
+  <div class="container-bg">
+	<div class="bar">
+		<i class="fas fa-arrow-left" style="margin-top: 8px; margin-left: 5px;color: white;"></i>
+    <span style="color: white; margin-left: 115px;">Deskripsi</span>
+  </div>
+  <img src="./images/box.jpg" style="width: 100px; height: 100px; margin-top: 18px; margin-left: 130px; margin-bottom: 18px;"/>
+<form action="/deskripsijual" class="form">
+    <div class="uk-margin">
+      <input class="uk-input" type="text" placeholder="Nama Barang">
+    </div>
+    <div class="uk-margin">
+      <textarea class="uk-textarea" rows="5" placeholder="Deskripsi"></textarea>
+    </div>
+    <div class="uk-margin">
+      <input class="uk-input" type="text" placeholder="Harga">
+    </div>
+    <div class="uk-margin">
+      <input class="uk-input" type="text" placeholder="Jumlah Stok">
+    </div>
   </form>
+
+    <p>
+      <input class="unggah" type="submit" value="Unggah">
+    </p>
+</body>
+</html>

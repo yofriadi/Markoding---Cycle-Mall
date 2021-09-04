@@ -6,52 +6,99 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Search List</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
 
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+
 	</script>
 </head>
 
-<body class="uk-container uk-container-background">
-  <div class="bar">
-    <i class="fas fa-arrow-left"></i>
-    <form class="uk-search uk-search-default">
-      <span uk-search-icon></span>
-      <input class="uk-search-input" type="search" placeholder=""></form>
-    <i class="fas fa-th-large"></i>
-  </div>
-  <div class="uk-card uk-card-default uk-card-body"> 
-    <img src="./images/bank.jpg"/>
-    <div>
-      <h5 class="uk-card-title">Celengan koin</h5>
-      <p>Rp20.000</p>
-      <i class="fas fa-map-marker-alt"></i>
-      <span>Kota Surabaya</span>
-    </div>
+<body>
+  <div class="container-bg">
+	<div class="bar">
+		<i style="margin-left: 25px; margin-top: 25px;" class="fas fa-arrow-left"></i>
+   <form style="margin-left: 15px;" class="uk-search uk-search-default">
+    <input class="uk-search-input" type="search" placeholder="Barang daur ulang">
+    </form>
+    <i style="margin-left: 15px;" class="fas fa-th-large"></i>
   </div>
 
+<center>
+<section class="barang">
+  <a href="#">
   <div class="uk-card uk-card-default uk-card-body"> 
-    <img src="./images/pencilcase.jpg"/>
     <div>
-      <h5 class="uk-card-title">Tempat pensil</h5>
-      <p>Rp10.000</p>
-      <i class="fas fa-map-marker-alt"></i>
-      <span>Kab Demak</span>
+    <img style="width: 100px; height: 80px; margin-left: -15px; margin-top: -10px;" src="./images/cebab.png"/>
+    </div>
+    <div>
+      <h5 style="font-size: 20px; margin-left: 10px; margin-top: -10px; margin-bottom:0px;" class="uk-card-title title">Celengan koin</h5>
+      <p style="margin-left: -48px; margin-top: 3px; margin-bottom: 0px;">Rp20.000</p>
+      <div style="margin-top: 5px;">
+        <i class="fas fa-map-marker-alt"></i>
+        <span style="font-size: 12px;">Kota Surabaya</span>
+      </div>
     </div>
   </div>
+  </a>
 
+  <a href="#">
   <div class="uk-card uk-card-default uk-card-body"> 
-    <img src="./images/lamp.jpg"/>
+    <img style="width: 100px; height: 80px; margin-left: -15px; margin-top: -10px;" src="./images/tesil.png"/>
     <div>
-      <h5 class="uk-card-title">Lampu hias</h5>
+      <h5 style="font-size: 20px; margin-top: -10px; margin-bottom: 0px;" class="uk-card-title title">Tempat pensil</h5>
+      <p style="margin-left: -48px; margin-top: 3px; margin-bottom: 0px;">Rp10.000</p>
+      <div style="margin-top: 5px; margin-left: -20px;">
+        <i class="fas fa-map-marker-alt"></i>
+        <span style="font-size: 12px;">Kab Demak</span>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="#">
+  <div class="uk-card uk-card-default uk-card-body">
+    <img style="width: 100px; height: 80px; width: 100px; margin-left: -15px; margin-top: -10px;" src="./images/lamp.png"/>
+    <div>
+      <h5 style="font-size: 20px; margin-top: -10px; margin-bottom: 0px;" class="uk-card-title">Lampu hias</h5>
+      <p style="margin-left: -28px; margin-top: 3px; margin-bottom: 0px;">Rp25.000</p>
+      <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <span style="font-size: 12px;">Kota Semarang</span>
+      </div>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="#">
+  <div class="uk-card uk-card-default uk-card-body"> 
+    <img style="width: 150px; height: 100px; margin-top: -20px; margin-left: -15px;" src="./images/vas.png"/>
+    <div>
+      <h5 class="uk-card-title title">Vas bunga</h5>
       <p>Rp25.000</p>
       <i class="fas fa-map-marker-alt"></i>
-      <span>Kota Semarang</span>
+      <span>Kab Boyolali</span>
     </div>
   </div>
+  </a>
+
+  <a href="#">
+  <div class="uk-card uk-card-default uk-card-body"> 
+    <img class="foto" src="./images/mangkuk.png"/>
+    <div>
+      <h5 class="uk-card-title title">Mangkuk</h5>
+      <p>Rp30.000</p>
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Kota Solo</span>
+    </div>
+  </div>
+  </a>
+</section>
+</center>
 </body>
 
 </html>

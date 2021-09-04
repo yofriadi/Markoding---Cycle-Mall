@@ -1,0 +1,160 @@
+.container-bg{
+  background: white;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  padding-bottom:30px!important; 
+}
+
+.avatar {
+  background-color: #377A97;
+  outline-color: #377A97;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.form {
+ margin-left: 20px;
+  padding-top: 30px;
+  border-radius: 15px!important;
+}
+
+.form1 {
+  margin-top: 20px;
+  width: 250px;
+  width: 300px;
+}
+
+.jeniskelamin {
+  margin-top: 30px;
+}
+
+.buat {
+  border-radius: 7px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #88DEB1;
+  height: 40px;
+  border-style: none;
+  color: white;
+  margin-top: 50px;
+  margin-right: 22px;
+  width: 270px;
+}
+.form-birth{
+  border-style: solid;
+  border-color: rgb(241, 241, 241)!important;
+  height:30px;
+  font-weight: normal;
+  color: rgb(104, 104, 104);
+  padding-left: 10px;
+  width: 150px;
+}
+.jenis-kelamin{
+  border-style: solid;
+  border-color: rgb(231, 231, 231);
+  height: 35px;
+  font-weight: normal;
+  color: rgb(104, 104, 104);
+  margin-top: 15px;
+  padding-left: 10px;
+  width: 167px;
+}
+.select-jeniskelamin{
+  margin-top: 25px!important;
+}
+.buat-akun{
+  color: white!important;
+  background: #88DEB1!important;
+  border-style: none!important;
+  margin-top: 50px!important;
+  border-radius: 7px!important;
+  padding-right:100px!important;
+  padding-left: 100px!important; 
+  margin-bottom: 30px!important;
+  margin-right: 20px!important;
+  font-weight: bold!important;
+}
+.container{
+  background: white;
+  height: auto;
+  width: 360px;
+  margin: auto;
+}
+body{
+  background: lavender;
+}
+.avatar-wrapper{
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 50px auto;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 1px 1px 15px -5px black;
+	transition: all .3s ease;
+	&:hover{
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	&:hover .profile-pic{
+		opacity: .5;
+	}
+	.profile-pic {
+    height: 100%;
+		width: 100%;
+		transition: all .3s ease;
+		&:after{
+			font-family: FontAwesome;
+			content: "\f007";
+			top: 0; left: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			font-size: 190px;
+			background: #ecf0f1;
+			color: #34495e;
+			text-align: center;
+		}
+	}
+	.upload-button {
+		position: absolute;
+		top: 0; left: 0;
+		height: 100%;
+		width: 100%;
+		.fa-arrow-circle-up{
+			position: absolute;
+			font-size: 234px;
+			top: -17px;
+			left: 0;
+			text-align: center;
+			opacity: 0;
+			transition: all .3s ease;
+			color: #34495e;
+		}
+		&:hover .fa-arrow-circle-up{
+			opacity: .9;
+		}
+	}
+}
+.profile-pic{
+  border-style: none!important;
+  color: white!important;
+  background: white!important;
+}
+.file-upload{
+  border-style: none!important;
+  color: white!important;
+  background: white!important;
+}
+.upload-button{
+  font-size: 40px!important;
+  margin-bottom: 20px!important;
+  margin-top: -5px;
+  color: #377A97;
+}
+.avatar-wrapper{
+  margin-bottom: 0px;
+}

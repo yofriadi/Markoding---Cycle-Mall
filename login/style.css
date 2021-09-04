@@ -1,87 +1,43 @@
 body{
-  background: lavender!important;
+  background: lavender;
 }
-
-.uk-bg{
-  width:360px;
-  height: auto;
-  background: white!important;
+.container-bg{
+  background: white;
   margin: auto;
+  width: 360px;
+  height: 640px;
 }
-.cyclemall{
-  position: absolute;
-  left: 580px;
-  top: 220px;
-
+.cycle-mall{
+  margin-top: -400px!important;
+  font-weight: bolder;
 }
-.formlogin{
-  position: absolute!important;
-  top: 300px!important;
-  margin-left: 385px!important;
-
+.form{
+  width: 270px!important;
+  border-radius: 15px!important;
 }
-.id-user{
-  border-radius: 7px;
-  margin-bottom: 10px;
-  border-color: lightgray;
-  color: black!important;
+.email{
+  margin-bottom: 15px!important;
+  border-radius: 7px!important;
 }
-.pw-user{
-  border-radius: 7px;
-  margin-bottom: 10px;
-  display: flex;
-  flex: wrap;
-  border-color: lightgray;
-  color: black!important;
+.pw{
+  border-radius: 7px!important;
 }
-.submit-user{
-  border-radius: 7px;
-  padding-left: 74px;
-  padding-right: 74px;
-  background: #88DEB1;
-  height:40px ;
-  border-style: none;
+.masuk{
+  background: #88DEB1!important;
+  border-style: none!important;
+  width: 270px!important;
   color: white!important;
-  margin-bottom: 10px;
-  position: absolute;
-  right: -5px;
-}
-.formlogin{
-  position: absolute;
-  left:200px!important ;
-  bottom: -50px!important;
-  border-style: none;
-  
-
-}
-.lupa-pw{
-  color: #88DEB1;
-  display: flex;
-  margin: auto;
-  position: absolute;
-  left:31px ;
-  bottom: 255px!important
-  
+  margin-top: 15px!important;
+  border-radius: 7px!important;
 }
 .daftar{
-  position: absolute;
-  bottom: 100px;
-  margin: auto;
-  left: 0px;
-  font-size: 14px;
-  margin-left: 570px!important;
-  
-}
-.daftar-user{
-  border-radius: 7px;
-  padding-left: 74px;
-  padding-right: 74px;
-  background: #88DEB1;
-  height:40px ;
-  border-style: none;
+  background: #88DEB1!important;
+  border-style: none!important;
+  width: 270px!important;
   color: white!important;
-  position: absolute;
-  left: 0px;
-  top: 580px;
-  margin-left: 580px;
+  margin-top: 0px!important;
+  border-radius: 7px!important;
+}
+.silakan-daftar{
+  margin-top:100px!important;
 }

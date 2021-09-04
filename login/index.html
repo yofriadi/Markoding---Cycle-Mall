@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <div class="uk-container .uk-container-background uk-bg">
-      <img class="illustrasi" src="images/illustrasi.png"/>
-      <h1 class="cyclemall" style="font-weight:bold"> Cycle Mall </h1>
-      <form action="/action_page.php" class="formlogin">
-        <input class="id-user" type="text" id="fname" name="fname" placeholder="Email atau nomor telepon"><br>
-        <input class="pw-user" type="password" id="pwd" name="pwd" placeholder="Kata sandi">
-        <input class="submit-user" type="submit" value="Masuk">
-        <a href="#" class="lupa-pw">Lupa kata sandi?</a>
-      </form>
-      <h6 class="daftar"> Belum punya akun? Silakan daftar </h6>
-      <input class="daftar-user" type="submit" value="Daftar">
+    <div class="container-bg">
+      <center>
+        <img src="images/ilustrasi.png" alt="" class="">
+        <h1 class="cycle-mall">
+          Cycle Mall
+        </h1>
+         <div class="uk-margin form">
+            <input class="uk-input email" type="text" placeholder="Email atau nomor telepon">
+            <input class="uk-input pw uk-form-password" input type="password" type="text" placeholder="Kata sandi">
+            <button class="uk-button uk-button-default masuk">Masuk</button>
+            <p class="silakan-daftar">
+              Belum punya akun? Silakan daftar
+            </p>
+            <button class="uk-button uk-button-default daftar">Daftar</button>
+        </div>
+      </center>
     </div>
   </body>
-</html>
