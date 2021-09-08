@@ -1,0 +1,277 @@
+body{
+  background: lavender;
+
+}
+.container-bg{
+  background: white;
+  width: 100%;
+  height: auto!important;
+}
+.blue-shape{
+  width: 360px;
+  height:158px ;
+  background: #377A97;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 15px;
+}
+.search{
+  width: 275px!important;
+  height: 30px!important;
+  margin-left: 21px!important;
+  display: inline-flex;
+  border-radius: 5px!important;
+}
+.cart{
+  color: #D9ECF2;
+  display: inline;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.card{
+  width: 300px!important;
+  height: 180px!important;
+}
+.judul{
+  font-weight: bold;
+  font-size: 16px!important;
+  margin-top: 10px!important;
+  margin-bottom: 0px!important;
+  color: rgb(82, 82, 82)!important;
+  margin-left: 16px;
+}
+.caption1{
+  font-size: 11px;
+  margin-top: 6px;
+  color: rgb(133, 133, 133);
+  margin-left: 18px;
+}
+.artikel{
+  width: 300px!important;
+  height: 150px;
+  border-radius: 10px;
+  padding-top: 0!important;
+  margin-left: 30px; 
+  padding-left: 0!important;
+
+}
+.ilustrasi{
+ margin-left: 180px!important;
+ margin-top: -140px!important;
+ 
+}
+.baca{
+  border-style: none!important;
+  background: #D9ECF2!important;
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  border-radius: 10px!important;
+  margin-left: 10px!important;
+  position: absolute;
+  top: 115px!important;
+  cursor: pointer;
+
+}
+.kategori-belanja{
+  width: 72px;
+  height: 72px;
+  border-style:none;
+  border-radius: 50px;
+  margin-top: 90px;
+  background: #88DEB1;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.text-categori{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.thrifting{
+  margin-left: 30px;
+}
+.loakan{
+  margin-left: 145px;
+  margin-top: -213px;
+}
+.recycle{
+  margin-left: 260px;
+  margin-top: -218px;
+}
+.jual-barang{
+  background-color: #88DEB1!important;
+  font-weight: bold!important;
+  font-size: 18px!important;
+  color: white!important;
+  padding-left: 50px!important;
+  padding-right: 50px!important;
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  border-radius: 15px!important;
+  margin-left: -227px!important;
+}
+.container-bawah{
+  background: #F4F4F4;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  padding-bottom: 100px;
+}
+.rekomendasi{
+  margin-top: 30px!important;
+  margin-left: 25px!important;
+  margin-bottom: 0;
+}
+.uk-card-atas{
+  width: 300px!important;
+  height: 130px!important;
+  border-radius: 10px!important;
+  margin: auto!important;
+  margin-top: 20px!important;
+}
+.nama-produk{
+  font-weight: bolder;
+  position: absolute;
+  left: 120px;
+  top: 5px;
+}
+.lampu-hias{
+  position: absolute;
+  left: 0px;
+  top: -10px;
+}
+.celengan{
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+}
+.kardus{
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+}
+.topi{
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+}
+.caption{
+  color: rgb(162, 162, 162);
+  margin-left: 81px!important;
+  margin-top: -0px;
+  font-size: 12px;
+}
+.footer{
+  padding-top: 8px;
+  height: 70px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+}
+.home{
+  color: #89D982;
+  font-size: 28px;
+  margin-top: 5px;
+}
+.beranda{
+  color: #89D982;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: -40px;
+  font-size: 14px;
+}
+.profil1{
+  color: #C8C8C8;
+  font-size: 27px;
+}
+.profil{
+  color: #C8C8C8;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-left: 253px;
+  margin-bottom: 5;
+}
+.menu-beranda{
+  display: inline-flex;
+  margin-left: 70px;
+  margin-bottom: 5;
+}
+.menu-profil{
+  display: inline;
+  margin-left: 140px;
+  margin-bottom: 5;
+}
+.price{
+  font-weight: bold;
+  color: #377A97;
+  margin-top: -20px!important;
+  margin-left: 80px;
+} 
+@media screen and (max-width: 800px) {
+  .footer{
+          padding-top: 8px;
+    height: 70px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    background: white;
+  }
+  .price{
+    position: absolute;
+    right: 103px;
+    bottom: 10px;
+  }
+  .caption{
+    position: absolute;
+    left: 40px;
+    top: 50px;   
+  }
+  .lampu-hias{
+    margin-right: 0px!important;
+  }
+  .nama-produk{
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    display: flex;
+  }
+  .celengan{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 18px;
+    bottom: 115px;
+    left: 15px;
+    border-radius: 10px;
+  }
+  .topi{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 18px;
+    left: 15px;
+    border-radius: 10px; 
+  }
+  .kardus{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 18px;
+    left: 15px;
+    border-radius: 10px; 
+  }
+}

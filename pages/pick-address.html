@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="../styles/pick-address.css" rel="stylesheet" type="text/css" />
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+  
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+  
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="container-bg">
+    <section class="uk-container uk-navbar">
+      <a href="./checkout.html">
+        <i class="fa fa-arrow-left back-button"></i>
+      </a>
+      <h4 class="alamat">Pilih Alamat</h4>
+    </section>
+    <h4 class="tulis-alamat">Tulis Alamat</h4>
+    <div class="uk-margin">
+    	<textarea id="address" class="uk-textarea uk-alamat" rows="5" placeholder="Tulis Alamat Lengkapmu"></textarea>
+    </div>
+    <h6 class="format-alamat"> Format: Jalan, Kelurahan, Kecamatan, Kota, Kode Pos </h6>
+    <center>
+      <button class="uk-button uk-button-default simpan" onclick="saveAddress()">Simpan</button>
+    </center>
+  </div>
+
+  <script>
+    function saveAddress() {
+      const address = document.getElementById("address").value;
+      localStorage.setItem('address', address)
+    }
+  </script>
+</body>
+
+</html>

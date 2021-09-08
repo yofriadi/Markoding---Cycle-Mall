@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="../styles/checkout.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+  <div class="container-bg" style="margin: 0; width: 100%;">
+    <section class="uk-container uk-navbar">
+      <i class="fa fa-arrow-left back-button"></i>
+      <h5 class="cart"> Checkout </h5>
+    </section>
+    <section class="body">
+      <a href="./pick-address.html">
+        <h3 class="address">Alamat Pengiriman</h3>
+        <i class="fas fa-chevron-right arrow-right"></i>
+      </a>
+      <p class="address-user" id="address"></p>
+      <a href="./pick-express.html">
+        <h3 class="opsi-pengiriman">Opsi Pengiriman</h3>
+        <i class="fas fa-chevron-right arrow-right"></i>
+      </a>
+      <p class="ekspedisi" id="express"></p>
+      <p class="harga" id="express-price"></p>
+      <h3 class="opsi-pengiriman"> Metode Pembayaran </h3>
+      <div class="uk-form-controls uk-form-controls-text">
+        <label><input class="payment-method" type="radio" name="radio1"> E-wallet (Dana, Ovo, Gopay, dll)</label><br>
+        <label><input class="payment-method" type="radio" name="radio1"> COD</label>
+      </div>
+
+      <div id="cart" style="padding-bottom: 128px;"></div>
+    </section>
+
+    <section class="footer">
+      <div style="display: flex; justify-content: space-between; margin: 0 64px;">
+        <p class="total"> Total: </p>
+        <p class="total-harga" id="total-price">Rp 59.000</p>
+      </div>
+      <a href="./order-success.html">
+        <button class="uk-button uk-button-default checkout">Checkout</button>
+      </a>
+    </section>
+  </div>
+  <script>
+    let totalPrice = 0
+
+    const userAddress = localStorage.getItem('address')
+    if (userAddress) {
+      document.getElementById("address").innerHTML = userAddress
+    }
+
+    const userExpress = localStorage.getItem('express')
+    if (userExpress) {
+      const express = JSON.parse(userExpress)
+      document.getElementById("express").innerHTML = express.name
+      document.getElementById("express-price").innerHTML = 'Rp ' + express.price
+      totalPrice += express.price
+    }
+
+    let cart = localStorage.getItem('cart')
+    cart = JSON.parse(cart)
+
+    let cartItem = ''
+    cart.forEach(c => {
+      cartItem += `<div class="uk-card uk-card-default uk-card-body uk-width-1-2@m" style="margin: 16px 32px 32px;; width: auto;">
+        <img class="kardus" src="${c.image}" />
+        <div class="caption">
+          <h3 class="nama-produk">${c.name}</h3>
+        </div>
+        <p class="caption">Kardus bekas, cocok digunakan dan diolah kembali</p>
+        <p class="price">Rp ${c.price}</p>
+      </div>`
+      totalPrice += c.price
+    })
+    document.getElementById('cart').innerHTML = cartItem
+
+    document.getElementById("total-price").innerHTML = 'Rp ' + totalPrice
+  </script>
+</body>
+
+</html>

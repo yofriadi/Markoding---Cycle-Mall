@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="../styles/detail-product.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js">
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js">
+
+  </script>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
+
+  </script>
+  <!-- font awesome -->
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+
+    </script>
+  <!-- bootstrap -->
+</head>
+
+<body>
+  <div class="uk-container .uk-container-background uk-bg"
+    style="margin-left:0; margin-right: 0; width: 100% !important;">
+    <div class="back">
+      <div class="uk-container uk-container-small uk-container-head">
+        <ul class="uk-iconnav">
+          <li><a href="#" uk-icon="icon: arrow-left"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="carousel gambar-produk">
+      <ul class="slides">
+        <input type="radio" name="gambar-produk" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image lampuhias">
+            <img src="../images/detail-product/lampu-hias.png">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container gambar-produk">
+          <div class="slide-image lampuhias">
+            <img src="../images/detail-product/lampu-hias2.png">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-3" />
+        <li class="slide-container">
+          <div class="slide-image lampuhias">
+            <img src="../images/detail-product/lampu-hias3.png">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-2" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-1" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <div class="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        </div>
+      </ul>
+    </div>
+
+    <div class="uk-container uk-container-expand uk-caption uk-padding uk-bg-white"
+      style="margin: 0; width: 100% !important; height: 57%;">
+      <h2 class="judul-barang"> Lampu Hias </h2>
+      <div class="kolom1">
+        <h6 class="tipe-barang"> Hasil Recycle </h6>
+        <h6 class="stok-barang"> Stok: 125 </h4>
+      </div>
+      <p class="deskripsi-barang"> Lampu hias cantik hasil daur ulang botol plastik bekas. Dengan membeli lampu hias
+        ini, kamu bisa membantu mengurangi sampah plastik yang terbuang bebas di alam.</p>
+      <div class="jumlah-harga">
+        <div class="number-input">
+          <button id="dec" onclick="decPrice()"></button>
+          <input id="quantity" class="quantity" min="0" name="quantity" value="1" type="number">
+          <button id="inc" onclick="incPrice()" class="plus"></button>
+        </div>
+        <h6 id="base-price" style="display: none;">25000</h6>
+        <h6 id="price" class="harga-barang">Rp25000</h6>
+      </div>
+      <div class="seller">
+        <img class="avatar" src="../images/detail-product/avatar.png" />
+        <div class="informasi-seller">
+          <p class="nama-seller" style="font-weight:bold">Kerajinan Mas Ari</p>
+          <p class="lokasi-seller"><i class="fa fa-map-marker-alt"></i> Semarang, Jawa Tengah </p>
+        </div>
+      </div>
+      <p uk-margin>
+        <button class="uk-button uk-button-default beli uk-">
+          <i class="fa fa-phone-alt"></i>
+          Telepon
+        </button>
+        <button class="uk-button uk-button-default keranjang" id="add-to-cart" onclick="addToCart()">
+          <i class="fa fa-shopping-cart"></i>
+          Add to Cart
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <script>
+    const lamp = {
+      id: 1,
+      name: 'Lampu Hias',
+      image: 'https://imgur.com/CtfV39K',
+      price: 25000,
+      qty: 0,
+    }
+
+    function incPrice() {
+      const inc = document.getElementById("inc")
+      inc.parentNode.querySelector('input[type=number]').stepUp()
+
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+
+      lamp.qty = Number(quantity)
+    }
+
+    function decPrice() {
+      const dec = document.getElementById("dec")
+      dec.parentNode.querySelector('input[type=number]').stepDown()
+
+      const quantity = document.getElementById("quantity").value;
+      const basePrice = document.getElementById("base-price").innerHTML;
+      let price = document.getElementById("price").innerHTML;
+
+      price = quantity * basePrice
+      document.getElementById("price").innerHTML = 'Rp' + price;
+
+      lamp.qty = Number(quantity)
+    }
+
+    function addToCart() {
+      let cart = localStorage.getItem('cart')
+
+      if (!cart) {
+        cart = [lamp]
+        localStorage.setItem('cart', JSON.stringify(cart))
+      } else {
+        cart = JSON.parse(cart)
+
+        for (let i=0; i<cart.length; i++) {
+          if (cart[i].id === lamp.id) {
+            cart[i].qty = Number(lamp.qty)
+          }
+
+          if (i === cart.length-1 && cart[i].id !== lamp.id) {
+            cart.push(lamp)
+          }
+        }
+
+        localStorage.setItem('cart', JSON.stringify(cart))
+      }
+    }
+  </script>
+</body>
+
+</html>

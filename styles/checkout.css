@@ -1,6 +1,5 @@
 body{
   background: lavender;
-
 }
 .container-bg{
   background: white;
@@ -242,18 +241,12 @@ ul.slides input {
   text-align: center;
 }
 .total{
-  margin-left: 25px;
   color: rgb(187, 187, 187);
-  display: inline-flex;
-  margin-top: 40px;
-
+  margin-top: 20px;
 }
 .total-harga{
-  margin-left: 190px;
-  display: inline;
   color: #377A97;
   font-weight: bold;
-  margin-top: 40px;
 }
 .checkout{
   background-color: #88DEB1!important;
@@ -262,5 +255,4 @@ ul.slides input {
   padding-left: 100px!important;
   padding-right: 100px!important;
   border-radius: 10px!important;
-  margin-left: 40px!important;
 }

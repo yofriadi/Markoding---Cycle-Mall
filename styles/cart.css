@@ -1,0 +1,46 @@
+body{
+  background: lavender;
+}
+.container-bg{
+  background: white;
+  width: 100%;
+}
+.uk-navbar{
+  background: #377A97!important;
+  width: auto;
+  height: 50px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.cart{
+  margin: auto;
+  color: white;
+  padding-bottom: 15px;
+}
+.footer{
+  padding-top: 8px;
+  height: 70px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+}
+.link {
+  display: flex;
+  justify-content: center; 
+}
+.keranjang{
+  background: #88DEB1 !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 12px !important;
+  width: 80%;
+  height: 48px;
+}
