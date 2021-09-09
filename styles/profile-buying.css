@@ -1,0 +1,192 @@
+.container{
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+body{
+  background: lavender;
+}
+.username{
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.avatar{
+  width: 67px;
+  height: 67px;
+  margin: auto 16px;;
+  cursor: pointer;
+}
+.phone-number{
+  color: #616161;
+  font-size: 14px;
+  margin: 0;
+}
+.address{
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #616161;
+  font-size: 14px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.edit{
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background: #88DEB1;
+  cursor: pointer;
+  margin: auto;
+}
+.edit-icon{
+  color: white!important;
+}
+.container-bar{
+  width: 100%;
+  height: 50px;
+  background: #D9ECF2;
+  padding-top: 10px;
+}
+.blue-shape{
+  background: #377A97;
+  width: 130px;
+  height: 35px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.icon-bag{
+  color: white;
+  font-size: 20px;
+  margin-top: 6px!important;
+  margin-left: 35px;
+}
+.beli{
+  font-weight: bold;
+  color: white;
+  margin-left: 65px;
+  margin-top: -24px;
+}
+.jual{
+  color: rgb(78, 78, 78);
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.icon-jual{
+  color: rgb(78, 78, 78);
+  cursor: pointer;
+}
+.card{
+  width: 90px!important;
+  height: 90px!important;
+  border-radius:15px!important; 
+  margin-top: 60px;
+  margin-left: 22px;
+  padding: 0;
+  margin-right: 0px;
+  cursor: pointer;
+
+}
+.status{
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+.packing{
+  font-size: 24px;
+  color: #88DEB1;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+
+
+}
+.status-pengiriman{
+  display: flex;
+}
+.logout{
+  width: 280px!important;
+  height: 40px;
+  background: #EF3D3D!important;
+  padding-top: 0px!important;
+  border-radius: 12px!important;
+  margin-top: 240px!important;
+  cursor: pointer!important;
+  border-style: none!important;
+  color: white!important;
+  font-size: 18px!important;
+  margin-bottom: 0px;
+}
+.keluar{
+  color: white;
+}
+.footer{
+  padding-top: 8px;
+  height: 70px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+}
+.home{
+  color: #C8C8C8;
+  font-size: 28px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.beranda{
+  color: #C8C8C8;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: -40px;
+  font-size: 14px;
+}
+.profil1{
+  color: #89D982;
+  font-size: 27px;
+  cursor: pointer;
+}
+.profil{
+  color: #89D982;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-left: 185px;
+
+}
+.menu-beranda{
+  display: inline-flex;
+  margin-left: 0px;
+
+}
+.menu-profil{
+  display: inline;
+  margin-left: 140px;
+
+}
+.question{
+  font-weight: bold;
+}
+.keluar-button{
+  border-radius: 10px!important;
+  border-style: none!important;
+}
+.batal-button{
+  background: #D9ECF2!important;
+  border-radius: 10px!important;
+  border-style: none!important;
+  font-weight: bold!important;
+}
+.modal{
+  height: 160px!important;
+  width: 300px!important;
+  border-radius: 15px!important;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,35 @@
+.container-bg{
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  background: lavender;
+}
+
+.bar {
+  display: flex;
+  height: 30px;
+  background-color: #377A97;
+  padding: 10px;
+}
+
+.form {
+  padding: 20px;
+} 
+
+.unggah {
+  border-radius: 7px;
+  padding: 0 64px;
+  background: #88DEB1;
+  height: 40px;
+  border-style: none;
+  color: white;
+  margin: 32px auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}

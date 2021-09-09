@@ -1,0 +1,236 @@
+.container{
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+body{
+  background: lavender;
+}
+.username{
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.phone-number{
+  color: #616161;
+  font-size: 14px;
+  margin: 0;
+}
+.address{
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #616161;
+  font-size: 14px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.avatar{
+  width: 67px;
+  height: 67px;
+  margin: auto 16px;;
+  cursor: pointer;
+}
+.edit{
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background: #88DEB1;
+  cursor: pointer;
+  margin: auto;
+}
+.edit-icon{
+  color: white!important;
+}
+.container-bar{
+  width: 100%;
+  height: 50px;
+  background: #D9ECF2;
+  padding-top: 10px;
+}
+.blue-shape{
+  background: #377A97;
+  width: 130px;
+  height: 35px;
+  border-radius: 18px;
+  margin-left: 25px;
+  cursor: pointer;
+
+}
+.icon-bag{
+  color: white;
+  font-size: 20px;
+  margin-top: 6px!important;
+  margin-left: 35px;
+}
+.beli{
+  font-weight: bold;
+  color: white;
+  margin-left: 65px;
+  margin-top: -24px;
+}
+.jual{
+  color: rgb(78, 78, 78);
+  font-weight: bold;
+  position: absolute;
+  left: 368px;
+  top: 102px;
+  cursor: pointer;
+}
+.icon-jual{
+  color: rgb(78, 78, 78);
+  cursor: pointer;
+  position: absolute;
+  left: 340px;
+  top: 127px;
+}
+.beranda{
+  color: #C8C8C8;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-left: -40px;
+  font-size: 14px;
+}
+.profil1{
+  color: #89D982;
+  font-size: 27px;
+  cursor: pointer;
+}
+.profil{
+  color: #89D982;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-left: 253px;
+
+}
+.menu-beranda{
+  display: inline-flex;
+  margin-left: 70px;
+
+}
+.menu-profil{
+  display: inline;
+  margin-left: 140px;
+
+}
+.footer{
+  padding-top: 8px;
+  height: 70px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  background: white;
+}
+.home{
+  color: #C8C8C8;
+  font-size: 28px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.uk-card-atas{
+  width: 300px!important;
+  height: 150px!important;
+  border-radius: 10px!important;
+  margin: auto!important;
+  margin-top: 65px!important;
+  margin-bottom: 270px!important;
+
+}
+.nama-produk{
+  font-weight: bolder;
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+.lampu-hias{
+  position: absolute;
+  left: 0px;
+  top: -20px;
+}
+
+.price{
+  font-weight: bold;
+  color: #377A97;
+  position: absolute;
+  left: 120px;
+  top: 5px;
+}
+.terjual{
+  margin-left: 89px;
+  margin-top: 40px;
+  color: gray;
+}
+.trash-button{
+  margin-left: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  display: inline-flex;
+  color: #8E8E8E; 
+}
+.hapus{
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 0px;
+  display: inline;
+  color: #8E8E8E;
+  margin-left: 5px;
+}
+.delete{
+  border-style: none;
+  background: white;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.sunting{
+  border-style: none;
+  background: #D9ECF2;
+  width: 80px;
+  border-radius: 10px;
+  margin-top: -25px;
+  cursor: pointer;
+  margin-left: -2px;
+
+}
+.pen{
+  margin-right: 5px;
+  color: black;
+}
+.ngedit{
+  color: black;
+}
+.jual-tab{
+  margin-left: 10px;
+}
+.question{
+  font-weight: bold;
+}
+.keluar-button{
+  border-radius: 10px!important;
+  border-style: none!important;
+}
+.batal-button{
+  background: #D9ECF2!important;
+  border-radius: 10px!important;
+  border-style: none!important;
+  font-weight: bold!important;
+}
+.modal{
+  height: 160px!important;
+  width: 300px!important;
+  border-radius: 15px!important;
+}
+.button-delete{
+  background: white;
+  border-style: none;
+  font-size: 14px;
+  color: rgb(129, 129, 129);
+}
+@media screen and (min-height: 800px) {
+  .edit{
+    left: 200;
+  }
+}

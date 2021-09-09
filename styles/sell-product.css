@@ -1,0 +1,136 @@
+.container-bg{
+  width: 100%;
+  background: white;
+  height: 100vh;
+}
+body{
+  background: lavender;
+}
+.uk-navbar{
+  background: #377A97!important;
+  margin-bottom: 70px;
+  height: 50px;
+}
+.back-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  cursor: pointer;
+}
+.cart{
+  margin: auto;
+  color: white;
+  margin-bottom: auto !important;
+}
+.next-button{
+  font-size: 23px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 320px;
+  cursor: pointer;
+}
+.image-preview{
+  width:300px ;
+  min-height: 100px;
+  border: 2px solid #88DEB1;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(172, 172, 172);
+}
+.image-preview__image{
+  display: none;
+  width: 100%;
+}
+
+.container{
+  height: 170px;
+  width: 320px;
+  position: relative;
+}
+.container .wrapper{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px dashed #c2cdda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.wrapper.active{
+  border: none;
+}
+.wrapper .image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.wrapper .icon{
+  font-size: 100px;
+  color: #377A97;
+}
+.wrapper .text{
+  font-size: 20px;
+  font-weight: 500;
+  color: #5B5B7B;
+}
+.wrapper #cancel-btn i{
+  position: absolute;
+  font-size: 20px;
+  right: 15px;
+  top: 15px;
+  color: rgb(68, 68, 68);
+  cursor: pointer;
+  display: none;
+}
+.wrapper.active:hover #cancel-btn i{
+  display: block;
+}
+.wrapper #cancel-btn i:hover{
+  color: #e74c3c;
+}
+.wrapper .file-name{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 18px;
+  color: #fff;
+  display: none;
+  background: #377A97;
+}
+.wrapper.active:hover .file-name{
+  display: block;
+}
+.container #custom-btn{
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #88DEB1;
+}
+}
