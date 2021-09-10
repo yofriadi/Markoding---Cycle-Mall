@@ -73,9 +73,6 @@ body{
 }
 .nama-produk{
   font-weight: bolder;
-  position: absolute;
-  left: 120px;
-  top: 35px;
 }
 .jumlah{
   color: #377A97;
@@ -92,9 +89,6 @@ body{
 .price{
   font-weight: bold;
   color: #377A97;
-  position: absolute;
-  left: 120px;
-  top: 30px;
 }
 .number-input{
   margin-left: -57px;
@@ -223,13 +217,6 @@ ul.slides input {
   left: -30px;
   top: 450px;
 }
-/* .footer{
-  width: 360px;
-  height: 135px;
-  position: fixed;
-  top: 630px;
-  background: white;
-} */
 .footer {
   height: 135px;
   position: fixed;
@@ -255,4 +242,8 @@ ul.slides input {
   padding-left: 100px!important;
   padding-right: 100px!important;
   border-radius: 10px!important;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-around;
 }

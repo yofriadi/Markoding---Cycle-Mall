@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Deskripsi Jual Barang</title>
+	<link href="../styles/edit-profile.css" rel="stylesheet" type="text/css" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js">
+
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit-icons.min.js">
+
+	</script>
+	<title>jQuery UI Datepicker - Default functionality</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js">
+	</script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+	</script>
+	<script>
+		$( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+	</script>
+</head>
+
+<body>
+      <div class="container">
+        <a href="./profile-buying.html">
+	  <i class="fas fa-times" style="margin-top: 15px; margin-left: 15px;"></i>
+        </a>
+      <center>
+        <h1 style="font-weight: bold;">Edit Profil</h1>
+      </center>
+      <center>
+        <div class="avatar-wrapper" id="photo">
+          <img class="profile-pic" src="" />
+          <div class="upload-button">
+            <i class="fas fa-camera" aria-hidden="true"></i>
+          </div>
+          <input class="file-upload" type="file" accept="image/*"/>
+        </div>
+      </center>
+      <form action="/signup" method="post" class="form">
+        <div class="uk-margin form1">
+            <input class="uk-input" type="email" placeholder="kerajinanmasari@gmail.com">
+        </div>
+        <div class="uk-margin form1">
+            <input class="uk-input" type="number" placeholder="081932228708">
+        </div>
+        <div class="uk-margin form1">
+            <input class="uk-input" type="text" placeholder="Kerajinan Mas Ari">
+        </div>
+         <div class="uk-margin form1">
+            <input class="uk-input" type="password" placeholder="**********">
+        </div>
+        <div class="tanggal-lahir"
+          <p class="birth">Tanggal Lahir </p>
+          <input class="form-birth" type="date" placeholder="13/07/2004" id="">
+          
+        </div>
+        <div class="uk-margin">
+			    <textarea class="uk-textarea uk-alamat" rows="5" placeholder="Jalan Tlogosari Raya, Tlogosari Kulon, Pedurungan, Semarang 50199"></textarea>
+          <h6 class="format-alamat"> Format: Jalan, Kelurahan, Kecamatan, Kota, Kode Pos </h6>
+        </div>
+        <div class="select-jeniskelamin">
+          <span class="jeniskelamin">Jenis Kelamin</span>
+          <div class="uk-form-select " data-uk-form-select>
+            <select class="jenis-kelamin">
+              <option value="">Pria</option>
+              <option value="">Wanita</option>
+              <option value="">Khusus</option>
+            </select>
+          </div>
+        </div>
+        <center>
+          <a href="https://cycle-mall-markoding01.markoding01.repl.co/profile(beli)/index.html"
+            <button class="uk-button buat-akun uk-button-default">simpan</button>
+          </a>
+        </center>
+      </form> 
+    </div>
+    <script>
+      $(document).ready(function() {
+	
+    var readURL = function(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.profile-pic').attr('src', e.target.result);
+            }
+    
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+   
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+    
+    $(".upload-button").on('click', function() {
+       $(".file-upload").click();
+    });
+});
+
+      localStorage.setItem('photo')
+    </script>
+  
+  </body>
+</html>

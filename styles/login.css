@@ -1,0 +1,42 @@
+body{
+  background: lavender;
+}
+.container-bg{
+  background: white;
+  width: 100%;
+  height: 100vh;
+}
+.cycle-mall{
+  margin-top: -400px!important;
+  font-weight: bolder;
+}
+.form{
+  width: 270px!important;
+  border-radius: 15px!important;
+}
+.email{
+  margin-bottom: 15px!important;
+  border-radius: 7px!important;
+}
+.pw{
+  border-radius: 7px!important;
+}
+.masuk{
+  background: #88DEB1!important;
+  border-style: none!important;
+  width: 270px!important;
+  color: white!important;
+  margin-top: 15px!important;
+  border-radius: 7px!important;
+}
+.daftar{
+  background: #88DEB1!important;
+  border-style: none!important;
+  width: 270px!important;
+  color: white!important;
+  margin-top: 0px!important;
+  border-radius: 7px!important;
+}
+.silakan-daftar{
+  margin-top:100px!important;
+}

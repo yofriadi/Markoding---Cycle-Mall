@@ -28,7 +28,11 @@
         <p class="phone-number"> 082183121166 </p>
         <h6 class="address"> <i class="fas fa-map-marker-alt"></i> Semarang, Jawa Tengah </h6>
       </div>
-      <button class="edit"><i class="fas fa-pencil-alt edit-icon"></i></button>
+      <button class="edit">
+        <a href="./edit-profile.html">
+          <i class="fas fa-pencil-alt edit-icon"></i>
+        </a>
+      </button>
     </section>
     <div class="container-bar">
       <div class="flex-around">
@@ -63,8 +67,12 @@
         <div id="modal-example" uk-modal>
           <div class="uk-modal-dialog uk-modal-body modal">
             <h4 class="question">Apakah kamu yakin ingin keluar?</h4>
-              <button class="uk-button uk-button-default  keluar-button" type="button">Ya,keluar</button>
-              <button class="uk-button uk-button-default batal-button uk-modal-close" type="button">Batal</button>
+              <div style="display: flex; justify-content: space-around;">
+                <a href="./login.html">
+                  <button class="uk-button uk-button-default keluar-button" type="button">Ya,keluar</button>
+                </a>
+                <button class="uk-button uk-button-default batal-button uk-modal-close" type="button">Batal</button>
+              </div>
             </p>
           </div>
         </div>

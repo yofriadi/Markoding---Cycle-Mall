@@ -49,7 +49,7 @@
     <div class="back">
       <div class="uk-container uk-container-small uk-container-head">
         <ul class="uk-iconnav">
-          <li><a href="#" uk-icon="icon: arrow-left"></a></li>
+          <li><a href="../index.html" uk-icon="icon: arrow-left"></a></li>
         </ul>
       </div>
     </div>
@@ -58,7 +58,7 @@
         <input type="radio" name="gambar-produk" id="img-1" checked />
         <li class="slide-container">
           <div class="slide-image lampuhias">
-            <img src="../images/detail-product/lampu-hias.png">
+            <img id="product-image" src="../images/detail-product/lampu-hias.png">
           </div>
           <div class="carousel-controls">
             <label for="img-3" class="prev-slide">
@@ -147,7 +147,6 @@
     const lamp = {
       id: 1,
       name: 'Lampu Hias',
-      image: 'https://imgur.com/CtfV39K',
       price: 25000,
       qty: 0,
     }
@@ -181,6 +180,9 @@
     }
 
     function addToCart() {
+      const img = document.getElementById('product-image')
+      lamp.image = img.src
+
       let cart = localStorage.getItem('cart')
 
       if (!cart) {

@@ -1,0 +1,19 @@
+.cycle-mall-text{
+  position: absolute;
+  left: 85px;
+  top: 275px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.slogan{
+  left:80px;
+  top: 325px;
+  position: absolute;
+  font-family: 'Karla', sans-serif;
+  color: black;
+}
+.logo{
+  position: absolute;
+  top: 300px;
+  left: 260px;
+}

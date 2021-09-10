@@ -18,7 +18,9 @@
 <body>
   <div class="container-bg" style="margin: 0; width: 100%;">
     <section class="uk-container uk-navbar">
-      <i class="fa fa-arrow-left back-button"></i>
+      <a href="./cart.html">
+        <i class="fa fa-arrow-left back-button"></i>
+      </a>
       <h5 class="cart"> Checkout </h5>
     </section>
     <section class="body">
@@ -74,12 +76,14 @@
     let cartItem = ''
     cart.forEach(c => {
       cartItem += `<div class="uk-card uk-card-default uk-card-body uk-width-1-2@m" style="margin: 16px 32px 32px;; width: auto;">
-        <img class="kardus" src="${c.image}" />
-        <div class="caption">
-          <h3 class="nama-produk">${c.name}</h3>
+        <div class="flex-between ">
+          <img style="height: 70px;" class="kardus" src="${c.image}" />
+          <div class="caption">
+            <h3 class="nama-produk">${c.name}</h3>
+            <p class="price">Rp ${c.price}</p>
+          </div>
         </div>
         <p class="caption">Kardus bekas, cocok digunakan dan diolah kembali</p>
-        <p class="price">Rp ${c.price}</p>
       </div>`
       totalPrice += c.price
     })
